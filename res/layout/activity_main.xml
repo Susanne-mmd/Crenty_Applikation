@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage"
+    tools:context=".MainActivity" >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:id="@+id/loginErrorMsg"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/passres"
+            android:layout_alignParentLeft="true"/>
+    
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/passfieldbg"
+        android:ems="10"
+        android:hint="Brugernavn.."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iblogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/passfieldbg"
+        android:ems="10"
+        android:hint="Password.."
+        android:inputType="textPassword" >
+
+       
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/ibskip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@null"
+        android:src="@drawable/skipknapmtxt" />
+
+    <ImageButton
+        android:id="@+id/iblogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ibskip"
+        android:layout_alignTop="@+id/ibreg"
+        android:layout_marginRight="35dp"
+        android:background="@null"
+        android:src="@drawable/loginknapmtxt" />
+
+    <ImageButton
+        android:id="@+id/ibreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibskip"
+        android:layout_alignLeft="@+id/ibskip"
+        android:layout_marginBottom="54dp"
+        android:layout_marginLeft="35dp"
+        android:background="@null"
+        android:src="@drawable/register" />
+
+</RelativeLayout>

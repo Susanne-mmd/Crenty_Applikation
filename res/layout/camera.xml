@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage"
+    android:gravity="clip_vertical"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginpage" >
+    </ImageView>
+    
+
+     <ImageButton
+        android:id="@+id/ibupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibcam"
+        android:onClick="upload"
+        android:src="@drawable/upload" />
+
+    <ImageButton
+        android:id="@+id/iblogud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp"
+        android:onClick="logud"
+        android:src="@drawable/logud" />
+
+    <ImageButton
+        android:id="@+id/ibprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="profil"
+        android:src="@drawable/profil" />
+
+    <ImageButton
+        android:id="@+id/ibgps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibprofil"
+        android:onClick="gps"
+        android:src="@drawable/gps" />
+
+    <ImageButton
+        android:id="@+id/ibcam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibgps"
+        android:onClick="cam"
+        android:src="@drawable/camera" />
+
+    <Button
+        android:id="@+id/cam_snap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        android:onClick="ActivateCamera"
+        android:text="Tag Billed!" />
+
+</RelativeLayout>

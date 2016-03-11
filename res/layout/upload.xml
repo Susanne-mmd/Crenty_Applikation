@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/loginpage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:onClick="uploadfile"
+        android:id="@+id/btnuploads"
+    />
+     
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:textColor="#00FF00"
+        android:textStyle="bold"
+    />
+
+    <ImageButton
+        android:id="@+id/ibupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibcam"
+        android:onClick="uploads"
+        android:src="@drawable/upload" />
+
+    <ImageButton
+        android:id="@+id/iblogud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp"
+        android:onClick="logud"
+        android:src="@drawable/logud" />
+
+    <ImageButton
+        android:id="@+id/ibprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="profil"
+        android:src="@drawable/profil" />
+
+    <ImageButton
+        android:id="@+id/ibgps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibprofil"
+        android:onClick="gps"
+        android:src="@drawable/gps" />
+
+    <ImageButton
+        android:id="@+id/ibcam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ibgps"
+        android:onClick="cam"
+        android:src="@drawable/camera" />
+    
+ </RelativeLayout>

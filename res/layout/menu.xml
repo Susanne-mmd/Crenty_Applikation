@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loginpage"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android1:layout_width="wrap_content"
+        android1:layout_height="match_parent"
+        android1:orientation="vertical" >
+
+        <Button
+            android1:id="@+id/btnprofil"
+            android1:layout_width="318dp"
+            android1:layout_height="wrap_content"
+            android1:text="Din profil" />
+
+        <Button
+            android1:id="@+id/btncamera"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:text="Kamera - Tag et billed" />
+
+        <Button
+            android1:id="@+id/btnupload"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:text="Upload billed" />
+
+        <Button
+            android1:id="@+id/btngps"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:text="GPS - se andre der er online" />
+
+        <Button
+            android1:id="@+id/btnlog_ud"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:text="Log ud" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+[submodule "idea\\"]
+	path = idea\\
+	url = ./idea\\
+[submodule "idea"]
+	path = idea
+	url = ./idea/
+[submodule "settings"]
+	path = settings
+	url = ./settings/
+[submodule "bin"]
+	path = bin
+	url = ./bin/
+[submodule "gen"]
+	path = gen
+	url = ./gen/
+[submodule "libs"]
+	path = libs
+	url = ./libs/
